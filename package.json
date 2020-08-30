@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "autoprefixer": "7.1.2",
     "axios": "^0.16.2",
     "babel-core": "6.25.0",
@@ -48,23 +47,11 @@
     "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3"
-=======
-    "chalk": "^4.1.0",
-    "prop-types": "^15.7.2",
-    "react": "^16.10.0",
-    "react-dom": "^16.10.0",
-    "react-scripts": "1.0.13"
->>>>>>> e4f042f6fb7e2096d08b9d06a7d8b2c13fdd1470
   },
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-<<<<<<< HEAD
     "test": "node scripts/test.js --env=jsdom"
-=======
-    "test": "node scripts/test.js --env=jsdom",
-    "eject": "react-scripts eject"
->>>>>>> e4f042f6fb7e2096d08b9d06a7d8b2c13fdd1470
   },
   "jest": {
     "collectCoverageFrom": [
