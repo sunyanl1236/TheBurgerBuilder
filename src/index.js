@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose, combineReducers } from 'redux'; //10. combineReducers
@@ -32,4 +33,5 @@ const app = (
 );
 
 ReactDOM.render( app, document.getElementById( 'root' ) );
+
 registerServiceWorker();
